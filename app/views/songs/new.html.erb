@@ -17,7 +17,7 @@
 
   <textarea name="song[artist]"> </textarea>
   <%=f.collection_select :genre_id, Genre.all, :id, :name%>
-  <%=f.label "contents"%>
+  <%=f.label "Song Notes 1"%>
   <input type = "text" name="song[note_contents][]" id="song_notes_1">
   <%= f.label "Song Notes 2"%>
   <input type = "text" name="song[note_contents][]" id="song_notes_2">
